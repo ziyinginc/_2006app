@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'activity2.dart'; // Import second screen for navigation
-import 'fav_page.dart'; // Import the fav activity screen after successful login
+import 'activity2.dart'; 
+import 'fav_page.dart'; 
 
 class SignUpActivity extends StatefulWidget {
   @override
@@ -14,7 +14,7 @@ class _SignUpActivityState extends State<SignUpActivity> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFE7CA74), // Background color (matching original)
+      backgroundColor: Color(0xFFE7CA74), 
       resizeToAvoidBottomInset: true,  // Ensures that the layout adjusts when the keyboard appears
       body: Stack(  // Use Stack to position elements
         children: [
@@ -52,7 +52,7 @@ class _SignUpActivityState extends State<SignUpActivity> {
                       hintText: 'Enter your email',
                       border: OutlineInputBorder(),
                       filled: true,  // Make the background white
-                      fillColor: Colors.white,  // Set the background color of the input field
+                      fillColor: Colors.white,  
                       contentPadding: EdgeInsets.all(10),
                     ),
                     keyboardType: TextInputType.emailAddress,
@@ -75,7 +75,7 @@ class _SignUpActivityState extends State<SignUpActivity> {
                       hintText: 'Enter your password',
                       border: OutlineInputBorder(),
                       filled: true,  // Make the background white
-                      fillColor: Colors.white,  // Set the background color of the input field
+                      fillColor: Colors.white,  
                       contentPadding: EdgeInsets.all(10),
                     ),
                   ),
@@ -108,7 +108,7 @@ class _SignUpActivityState extends State<SignUpActivity> {
                 );
               },
               child: Image.asset(
-                'assets/btn_dialog.png',  // Replace with actual path of your image
+                'assets/btn_dialog.png',  
                 width: 50,
                 height: 50,
               ),
