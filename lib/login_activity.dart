@@ -122,7 +122,7 @@ class _LoginActivityState extends State<LoginActivity> {
                 );
               },
               child: Image.asset(
-                'assets/btn_dialog.png',  // Replace with actual path of your image
+                'assets/btn_dialog.png',  
                 width: 50,
                 height: 50,
               ),
