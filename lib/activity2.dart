@@ -25,8 +25,8 @@ class SecondActivity extends StatelessWidget {
               },
               child: Text('Log In',
                 style: TextStyle(
-                fontSize: 24,               // Slightly larger font size
-                fontWeight: FontWeight.bold, // Make the text bold
+                fontSize: 24,               
+                fontWeight: FontWeight.bold, 
               ),
               ),
             ),
@@ -35,7 +35,7 @@ class SecondActivity extends StatelessWidget {
       ),
       // Bottom Navigation Bar
       bottomNavigationBar: BottomAppBar(
-        color: Color(0xFF5D3FD3),  // Bottom app bar color (purple)
+        color: Color(0xFF5D3FD3),  
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0), // Adjusted padding
           child: Row(
@@ -50,9 +50,9 @@ class SecondActivity extends StatelessWidget {
                   );
                 },
                 child: Image.asset(
-                  'assets/yellowhome.png',  // Home icon
-                  width: 200,  // Adjusted width
-                  height: 200, // Adjusted height
+                  'assets/yellowhome.png',  
+                  width: 200,  
+                  height: 200, 
                 ),
               ),
               SizedBox(width: 250),  // Space between icons
@@ -61,9 +61,9 @@ class SecondActivity extends StatelessWidget {
                   // Handle heart button click if necessary
                 },
                 child: Image.asset(
-                  'assets/yellowheart.png',  // Yellow heart icon
-                  width: 200,  // Adjusted width
-                  height: 200, // Adjusted height
+                  'assets/yellowheart.png',  
+                  width: 200,  
+                  height: 200, 
                 ),
               ),
             ],
