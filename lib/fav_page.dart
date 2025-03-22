@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'activity2.dart';  // SecondActivity (used if not logged in)
-import 'home_page.dart';  // MainActivity (used for the home screen)
+import 'activity2.dart';  
+import 'home_page.dart';  
 
 class FavActivity extends StatefulWidget {
   @override
@@ -118,7 +118,7 @@ class _FavActivityState extends State<FavActivity> {
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0), // Adjusted padding
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,  // Center icons horizontally
+            mainAxisAlignment: MainAxisAlignment.center, 
             children: [
               GestureDetector(
                 onTap: () {
@@ -129,9 +129,9 @@ class _FavActivityState extends State<FavActivity> {
                   );
                 },
                 child: Image.asset(
-                  'assets/yellowhome.png',  // Home icon
-                  width: 200,  // Adjusted width for a cleaner look
-                  height: 200, // Adjusted height for a balanced size
+                  'assets/yellowhome.png',  
+                  width: 200,  
+                  height: 200, 
                 ),
               ),
               SizedBox(width: 250),  // Space between the two icons (adjustable)
@@ -140,9 +140,9 @@ class _FavActivityState extends State<FavActivity> {
                   // Handle heart button click if necessary
                 },
                 child: Image.asset(
-                  'assets/yellowheart.png',  // Yellow heart icon
-                  width: 200,  // Adjusted width for a cleaner look
-                  height: 200, // Adjusted height for a balanced size
+                  'assets/yellowheart.png',  
+                  width: 200,  
+                  height: 200, 
                 ),
               ),
             ],
