@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'activity2.dart';  // SecondActivity (used if not logged in)
-import 'fav_page.dart';  // FavActivity (used if logged in)
+import 'activity2.dart';  
+import 'fav_page.dart';  
 
 class MainActivity extends StatefulWidget {
   @override
