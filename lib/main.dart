@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'activity1.dart'; // Import the Activity1 screen
+import 'activity1.dart'; 
 import 'home_page.dart';
 
 void main() {
