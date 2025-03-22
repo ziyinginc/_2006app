@@ -15,7 +15,7 @@ class _Activity1State extends State<Activity1> {
     Future.delayed(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => MainActivity()), // Replace with the next screen
+        MaterialPageRoute(builder: (context) => MainActivity()), 
       );
     });
   }
@@ -31,9 +31,9 @@ class _Activity1State extends State<Activity1> {
           children: <Widget>[
             // Yellow Car Image (replace the asset path if needed)
             Image.asset(
-              'assets/yellowcar.png', // Only one image now
-              width: 257,  // Equivalent to 257dp in your XML
-              height: 309, // Equivalent to 309dp in your XML
+              'assets/yellowcar.png', 
+              width: 257,  
+              height: 309, 
             ),
             SizedBox(height: 30), // Add space between the images
 
@@ -41,14 +41,13 @@ class _Activity1State extends State<Activity1> {
             Text(
               'FIND CARPARKS',
               style: TextStyle(
-                color: Color(0xFF5D3FD3), // Equivalent to #5D3FD3 in your XML
-                fontSize: 35, // Equivalent to 35sp in your XML
+                color: Color(0xFF5D3FD3), 
+                fontSize: 35, 
                 fontWeight: FontWeight.bold,
               ),
             ),
             SizedBox(height: 30),
 
-            // ProgressBar equivalent in Flutter
             CircularProgressIndicator(
               strokeWidth: 6, // Optional to adjust thickness of the progress bar
             ),
